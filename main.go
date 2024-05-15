@@ -42,7 +42,13 @@ func main() {
 		sum += 1
 		i++
 	}
-	fmt.Println(sum)
+	fmt.Println("sum: ", sum)
+
+	sum2 := 0
+	for i := 0; i < 10; i++ {
+		sum2 += i
+	}
+	fmt.Println("sum2: ", sum2)
 
 	//pointer
 	var ap *int
